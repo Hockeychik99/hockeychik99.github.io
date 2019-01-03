@@ -1,37 +1,50 @@
-## Welcome to GitHub Pages
+## Day 2 of 100 Days of Code
 
-You can use the [editor on GitHub](https://github.com/Hockeychik99/hockeychik99.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+I was tired tonight, and have a headache, but I opened Code Wars and found a kata challenge I thought I could handle. And to my surprise (and after finding the missing brace) I did it. I know the point of coding, and especially learning how to code, is not to get it right on the first try. But being that I'm still very much a newbie, when the code I write works the first time, it is a huge pat on my back and reinforces that I actually have learned something. My goal for this 100 days of code challenge is to get more comfortable writing code. And have the confidence to know that I do know what I'm doing so when the code doesn't compile, I have enough understanding to review it to see where I went wrong and how to fix it.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I love math. So when I find challenges like the one I did today, I feel that I should be able to understand what is going on behind the code (well, other than the fact that I'm the one writing the code). But I am a visual person when it comes to math, and if I am not using concrete figures I sometimes (okay, most of the times) get lost. So while figuring out this challenge, and what exactly needed to be done, I had to use an example with exact numbers. This showed me that my original thinking of just adding one to a `total` variable was not what I wanted.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+## Description:
 ```
+Given two integers a and b, which can be positive or negative, find the sum of all the numbers between 
+including them too and return it. If the two numbers are equal return a or b.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Hockeychik99/hockeychik99.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Note: a and b are not ordered!
+```
+## My Solution:
+```
+  public class Sum
+  {
+     public int GetSum(int a, int b)
+     {
+      //Good luck!
+      int firstNum = a;
+      int secondNum = b;
+      int total = 0;
+      int nextNum = 0;
+      
+      if (firstNum == secondNum) {
+         return firstNum;
+      }
+      else {
+         if (firstNum < secondNum) {
+            nextNum = firstNum;
+            while (nextNum <= secondNum) {
+               total += nextNum;
+               nextNum++;
+            }
+         }
+         else {
+            nextNum = secondNum;
+            while (nextNum <= firstNum) {
+               total += nextNum;
+               nextNum++;
+            }
+         }
+      return total;
+      }
+     }
+  }
+```
+So my code is wordy. After seeing some of the other solutions, there is room for improvement to condense some of the code. I'm sure that will come with time. I'm just pretty stoked I was able to do it!
