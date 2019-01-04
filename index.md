@@ -50,6 +50,7 @@ public class NthSeries {
 ```
 
 Annnnnnnnnnnd of course since I can now see the other solutions, I could have done this all in about 3 lines.... ho hum... I'll get there. Trying to figure out how to format to two decimal places actually took up a lot of the time I spent on this. I tried looking through the Java documentation but had trouble finding what I needed. So thankfully, to my rescue, a fellow SNHU student was able to help me figure that out (Thanks J.D.!) Now, onto Linux!
+
 __________________________________________________________________________________________________________________
 
 ## Day 2 of 100 Days of Code
