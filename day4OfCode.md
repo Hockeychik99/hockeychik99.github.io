@@ -7,7 +7,8 @@ So, since I've been taking the long way around in the previous days, I knew I co
 ## Description
 ```
 Summation
-Write a program that finds the summation of every number from 1 to num. The number will always be a positive integer greater than 0.
+Write a program that finds the summation of every number from 1 to num. 
+The number will always be a positive integer greater than 0.
 
 For example:
 
