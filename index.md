@@ -1,3 +1,46 @@
+## Day 5 (and it's not January 5th, life gets in the way sometimes)
+So, yeah... sometimes my weekends are boring with nothing to do, other times I barely get a chance to sit down. That was this past weekend. My son had a merit badge thing for scouts, I had a hockey game Saturday and Sunday, my wife had a hockey game Sunday, son had lacrosse tryouts Saturday night, daughter went ice skating ... didn't even think about turning on the laptop. Monday and Tuesday were whirlwind days as well. Tuesday I turned on the laptop, but that was to do homework and some other important things I had to get to. So here it is, Wednesday, and I'm on day 5. Now to code.
+
+I get emails from Code Wars with suggested katas. There was one in the email I wanted to try, but when I logged in today, it wasn't the first one that I saw, and it didn't come up before choosing this one:
+
+## Description
+```
+After a hard quarter in the office you decide to get some rest on a vacation. So you will book a flight for you and your girlfriend and try to leave all the mess behind you.
+
+You will need a rental car in order for you to get around in your vacation. The manager of the car rental makes you some good offers.
+
+Every day you rent the car costs $40. If you rent the car for 7 or more days, you get $50 off your total. Alternatively, if you rent the car for 3 or more days, you get $20 off your total.
+
+Write a code that gives out the total amount for different days(d).
+```
+
+## My Code
+```
+public class Kata {
+  public static int rentalCarCost(int d) {
+    // Your solution here
+    int total = 0;
+    final int DAILY_RENTAL = 40;
+    final int SEVEN_DAY_DISCOUNT = 50;
+    final int THREE_DAY_DISCOUNT = 20;
+    
+    if (d >= 7) {
+       total = (d * DAILY_RENTAL) - SEVEN_DAY_DISCOUNT;
+    }
+    else if (d < 3) {
+       total = d * DAILY_RENTAL;
+    }
+    else {
+       total = (d * DAILY_RENTAL) - THREE_DAY_DISCOUNT;
+    }
+    return total;
+  }
+}
+```
+I liked this kata. It was very realistic and made sense to why I would write a code for this type of scenario. Again, I realize my code is a little wordy. After I got to the `else` statement, I realized I could have figured `total = d * DAILY_RENTAL` above the `if` loop and the amount in `total` would carry into the loop and I could just subtract the appropriate discount. Starting to come a little easier in certain aspects (even after a several day break!)
+
+---------------------------------------------------------------------------------------------------------------
+
 ## Day 4 (I think... yes, today is January 4, 2019...)
 
 So I had some time early in the day and decided to use my time wisely and see if I could knock out some code before going on a dog walk. I perused Code Wars and found a few katas that I should know how to do, but I knew I'd learn better with a little help from a peer, so I kept looking. And whaddaya know, I found one I could handle!
