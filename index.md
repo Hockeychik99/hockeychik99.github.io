@@ -1,3 +1,29 @@
+## Day 6 .... only about a week behind ...
+Again, life. But I'm here. Now. Today (January 15, 2019). Decided to take on an easy kata on CodeWars (and I still had to Google because I realized the method I learned to do this was using a Stream and I knew there had to be a simpler way).
+
+## Description
+```
+We need a function that can transform a number into a string.
+
+What ways of achieving this do you know?
+```
+
+## My Code
+```
+class Kata {
+  public static String numberToString(int num) {
+    // Return a string of the number here!
+    String convertNum = "";
+    
+    convertNum = Integer.toString(num);
+    return convertNum;
+  }
+}
+```
+So, there ya have it. Day 6 completed. 
+
+--------------------------------------------------------------------------------------------------------
+
 ## Day 5 (and it's not January 5th, life gets in the way sometimes)
 So, yeah... sometimes my weekends are boring with nothing to do, other times I barely get a chance to sit down. That was this past weekend. My son had a merit badge thing for scouts, I had a hockey game Saturday and Sunday, my wife had a hockey game Sunday, son had lacrosse tryouts Saturday night, daughter went ice skating ... didn't even think about turning on the laptop. Monday and Tuesday were whirlwind days as well. Tuesday I turned on the laptop, but that was to do homework and some other important things I had to get to. So here it is, Wednesday, and I'm on day 5. Now to code.
 
