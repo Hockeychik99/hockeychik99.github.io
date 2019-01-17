@@ -1,3 +1,42 @@
+## Day 7
+Yay! Back to consecutive days of coding! There was a kata on Code Wars that was mathematical in nature and I wanted to do it, but it dealt with arrays and I have very limited knowledge and really didn't feel like getting stuck and frustrated tonight. So the next one was fairly easy - at least I understood the logic and was hoping the way I was thinking it through would work. Alas, it did! =o)
+
+## Description
+```
+Timmy & Sarah think they are in love, but around where they live, 
+they will only know once they pick a flower each. If one of the 
+flowers has an even number of petals and the other has an odd 
+number of petals it means they are in love.
+
+Write a function that will take the number of petals of each 
+flower and return true if they are in love and false if they aren't.
+```
+
+## My Code
+```
+public class OppositesAttract {
+
+  public static boolean isLove(final int flower1, final int flower2) {
+  if (flower1 != flower2) {
+     if ((flower1 % 2 == 0 && flower2 % 2 != 0) || (flower1 % 2 != 0 && flower2 % 2 == 0)) {
+        return true;
+     }
+     else {
+        return false;
+     }
+  }
+  else {
+     return false;
+  }
+
+  }
+  
+}
+```
+Looking over some of the other submitted solutions, there were some one and two line solutions. Totally didn't think about the `isEven` or `isOdd` functions (is that what they are called?! I'm drawing a blank, but it's late). But overall, I'm happy with my solution. It's not too bulky and I was able to include the correct logic, using `&&` and `||` for the correct expressions.
+
+___________________________________________________________________________________________________________________
+
 ## Day 6 .... only about a week behind ...
 Again, life. But I'm here. Now. Today (January 15, 2019). Decided to take on an easy kata on CodeWars (and I still had to Google because I realized the method I learned to do this was using a Stream and I knew there had to be a simpler way).
 
