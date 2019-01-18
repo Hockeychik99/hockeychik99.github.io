@@ -1,3 +1,8 @@
+## Day 8
+So I tried. I really tried. I've been sitting at my laptop most of the evening, revamping my resume and writing a cover letter for a job I'm applying for and since I don't know how to do anything without multitasking I pulled up Code Wars and found a kata I wanted to try. But when I clicked on it (and eventually went back to see what it said) it had failed to load. And it is now really past my bedtime. So I tried. I did. Tomorrow is another day to try again.
+
+_________________________________________________________________________________________________________________________
+
 ## Day 7
 Yay! Back to consecutive days of coding! There was a kata on Code Wars that was mathematical in nature and I wanted to do it, but it dealt with arrays and I have very limited knowledge and really didn't feel like getting stuck and frustrated tonight. So the next one was fairly easy - at least I understood the logic and was hoping the way I was thinking it through would work. Alas, it did! =o)
 
