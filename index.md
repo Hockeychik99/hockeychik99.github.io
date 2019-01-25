@@ -1,3 +1,14 @@
+## Day 9.5 (coding twice in one day!?)
+Instead of working, I decided to jump back on ZyBooks and start the last chapter that wasn't covered in my class last term (thanks to another friend who asked me if I knew of any other Java resources to learn from). So I worked through the first lesson `Do-while Loops`. I'm not going to post the code, but I was able to work through the two activities provided in the section and passed when it was checked. The low-down of `do-while loops` is that a condition will execute at least one time. 
+```
+do {
+  something
+} while (until some condition is met);
+```
+So that's your double-dose of code for today!
+
+___________________________________________________________________________________________________________________________________
+
 ## Day 9 (feeling like a failure with this 100 days of code thing...)
 So, it is January 25, 2019 and I am only on day 9 of 100 days of code. I did open Code Wars yesterday and read through a few katas but my brain was mush and just said to close it before getting frustrated. But I am here today, and I did code something. Semi proud of myself as well (I'll explain after posting the code)
 
