@@ -1,3 +1,50 @@
+## Day 9 (feeling like a failure with this 100 days of code thing...)
+So, it is January 25, 2019 and I am only on day 9 of 100 days of code. I did open Code Wars yesterday and read through a few katas but my brain was mush and just said to close it before getting frustrated. But I am here today, and I did code something. Semi proud of myself as well (I'll explain after posting the code)
+
+## Description
+```
+Given two numbers and an arithmetic operator (the name of it, as a string), 
+return the result of the two numbers having that operator used on them.
+
+a and b will both be positive integers, and a will always be the first number 
+in the operation, and b always the second.
+
+The four operators are "add", "subtract", "divide", "multiply".
+```
+
+## My Code
+```
+class ArithmeticFunction {
+  public static int arithmetic(int a, int b, String operator) {
+    // your code here
+    int total = 0;
+    
+    if (operator.equals("add")) {
+       total = a + b;
+    }
+    
+    else if (operator.equals("subtract")) {
+       total = a - b;
+    }
+    
+    else if (operator.equals("multiply")) {
+       total = a * b;
+    }
+    
+    else {
+       total = a / b;
+    }
+    
+    return total;
+  }
+```
+So, the instructions also stated to try it without using `if` statements. Well, I'll take that fail. I don't think I understand enough of this to do it without `if` statements. Maybe with a `replace` function? I'll pester my code-knowing friends and see if they can help me figure out another way to do it. So my pat-myself-on-my-back moment: while I was in IT-145 (java) at SNHU, I was trying to do a similar thing of comparing string input but I was using `if (operator == 'add')` and wasn't getting the results I was expecting. I was like what am I doing wrong? What am I missing!? A very helpful and knowledgeable friend mentioned to use the `.equals` instead for string comparisons because the `==` actually uses the ASCII values to compare so if they don't match up, the program will throw wonky results. So, from that point, I said I would always remember that because it had been so frustrating to me. So I tried the `.equals` first in the code above (and it worked!!!)
+
+If I come up with another solution, I will add it here and reference Day 9. Maybe, someday, it'll happen!
+(Just submitted the kata and I see to not use `if` statements I should have used the `switch` function! I actually did know that (just forgot about it). 
+
+__________________________________________________________________________________________________________________________________
+
 ## Day 8
 So I tried. I really tried. I've been sitting at my laptop most of the evening, revamping my resume and writing a cover letter for a job I'm applying for and since I don't know how to do anything without multitasking I pulled up Code Wars and found a kata I wanted to try. But when I clicked on it (and eventually went back to see what it said) it had failed to load. And it is now really past my bedtime. So I tried. I did. Tomorrow is another day to try again.
 
