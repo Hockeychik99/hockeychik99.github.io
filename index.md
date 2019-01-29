@@ -1,3 +1,29 @@
+## Day 10 (January 29, 2019)
+I'm back. And picked, what I thought, was an easy kata from Code Wars since I need to leave shortly. There was some chatter about practicing coding by some other students, so it was suggested I pick one and post it. So I did. I needed Google's help for this one even though it is fairly easy. Apparently, this specific method was not covered in my class, or I did not take good enough notes when we covered this. Either way, my initial attempts failed, so once Google showed me the way, I got the green lights!
+
+## Description
+```
+We need a function that can transform a string into a number. 
+What ways of achieving this do you know?
+
+Note: Don't worry, all inputs will be strings, and every string 
+is a perfectly valid representation of an integral number.
+```
+
+## My Code
+```
+public class StringToNumber {
+  public static int stringToNumber(String str) {
+    //TODO: Convert str into a number
+    int strInt = 0;
+    strInt = Integer.parseInt(str);
+    return strInt;
+  }
+}
+```
+
+____________________________________________________________________________________________________________________________________
+
 ## Day 9.5 (coding twice in one day!?)
 Instead of working, I decided to jump back on ZyBooks and start the last chapter that wasn't covered in my class last term (thanks to another friend who asked me if I knew of any other Java resources to learn from). So I worked through the first lesson `Do-while Loops`. I'm not going to post the code, but I was able to work through the two activities provided in the section and passed when it was checked. The low-down of `do-while loops` is that a condition will execute at least one time. 
 ```
