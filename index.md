@@ -1,3 +1,36 @@
+## Day 11 (January 31, 2019)
+Couldn't focus on homework tonight, so I gave Code Wars a shot. Found a good kata, a little challenging, but something I'm familiar with. It was good practice for me to make sure I still understood how to work through this one.
+
+## Description
+```
+Find the number of divisors of a positive integer n.
+
+Random tests go up to n = 500000.
+```
+
+## My Code
+```
+public class FindDivisor {
+
+  public long numberOfDivisors(int n) {
+    // TODO please write your code below this comment
+    int counter = 1;
+    int numDivs = 0;
+    
+    while (counter <= n) {
+       if (n % counter == 0) {
+          numDivs++;
+       }
+       counter++;
+    }
+    return numDivs;
+  }
+}
+```
+Overall, the instructions were straightforward. I know there is a condensed way to write my code, but I didn't feel like going to look it up. The only error I made at first was I had left out the `== 0` in the `if` statement and I got an error about an int can't return a boolean. My thinking was just true/false but then realized I needed to set the modulus equal to something to evaluate the expression.
+
+__________________________________________________________________________________________________________________________________
+
 ## Day 10 (January 29, 2019)
 I'm back. And picked, what I thought, was an easy kata from Code Wars since I need to leave shortly. There was some chatter about practicing coding by some other students, so it was suggested I pick one and post it. So I did. I needed Google's help for this one even though it is fairly easy. Apparently, this specific method was not covered in my class, or I did not take good enough notes when we covered this. Either way, my initial attempts failed, so once Google showed me the way, I got the green lights!
 
