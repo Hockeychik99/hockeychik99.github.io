@@ -1,3 +1,50 @@
+## Day 12 (February 2, 2019)
+It's late but I got it! So I found a kata that I had to do in my Python class a while back. So I knew I could handle this in java too. Overall pretty simple, but it wanted an exception thrown for any input less than 0 or greater than 12. So I had to do some looking on how to implement the exception. I did learn it in Java class, but we didn't use it other than when we learned it and therefore it hadn't stuck. I remembered how it worked when I finally found the correct code to implement. This kata was found on Code Wars.
+
+## Description
+```
+In mathematics, the factorial of a non-negative integer n, denoted by n!, 
+is the product of all positive integers less than or equal to n. For 
+example: 5! = 5 * 4 * 3 * 2 * 1 = 120. By convention the value of 0! is 1.
+
+Write a function to calculate factorial for a given input. If input is 
+below 0 or above 12 throw an exception of type ArgumentOutOfRangeException 
+(C#) or IllegalArgumentException (Java) or RangeException (PHP) or throw 
+a RangeError (JavaScript).
+```
+
+## My Code
+```
+public class Factorial {
+
+  public int factorial(int n) throws IllegalArgumentException {
+    // Happy coding :-)
+    
+    int total = 0;
+   
+    if (n < 0 || n > 12) {
+       throw new IllegalArgumentException();
+    }
+    
+    else if (n == 0) {
+       return 1;
+    }
+    
+    else {
+       total = n;
+       while (n > 1) {
+          n = n - 1;
+          total = total * n;
+       }
+    }
+    return total;
+  }
+}
+```
+I hit errors when trying the code I had mainly with the exception. Once I had that figured out, the errors were mathematical. I remembered I needed to put in an `else if` to return 1 if the input was 0 (since 0! = 1) and then I had to keep adjusting the sign and number in the `while` loop. Brain was no longer functioning at almost midnight, otherwise I may have figured that part out quicker. Again, looking through the other solutions, I could have really condensed my code. But I'm still happy with what I came up with. I do need to start implementing the short cuts to eliminate writing as many lines of code as I do, but seeing it this way allows me to cement the logic in my brain.
+
+________________________________________________________________________________________________________________________________
+
 ## Day 11 (January 31, 2019)
 Couldn't focus on homework tonight, so I gave Code Wars a shot. Found a good kata, a little challenging, but something I'm familiar with. It was good practice for me to make sure I still understood how to work through this one.
 
