@@ -1,3 +1,41 @@
+## Day 13 (February 6, 2019)
+Aye... again, it's been a few days... I'm failing at this coding every day thing, but, well life. Yesterday I think I technically fulfilled a day coding, as I wrote a script in bash for my Linux class. But I didn't write about it. I was happy with it, as I had to write it in the vi editor and then execute it. And it actually did what it was supposed to do!!! But I digress. On to today. Jumped on Code Wars and found a kata that I thought might be a little challenging, but then realized the only challenging part was going to be figuring out the math involved. And I am pleased with my work :)
+
+## Description
+```
+Two red beads are placed between every two blue beads. 
+There are N blue beads. After looking at the arrangement 
+below work out the number of red beads.
+
+B RR B RR B RR B RR B RR B
+@ @@ @ @@ @ @@ @ @@ @ @@ @
+
+Implement count_red_beads(n) (in PHP count_red_beads($n); 
+in Java, Javascript, TypeScript, C, C++ countRedBeads(n)) 
+so that it returns the number of red beads.
+If there are less than 2 blue beads return 0.
+```
+
+## My Code
+```
+public class BeadsCounter {
+    public static int countRedBeads(final int nBlue) {
+       int redBeads = 0;
+       if (nBlue < 2) {
+          return 0;
+       }
+       
+       else {
+          redBeads = (nBlue * 2) - 2;
+       }
+      return redBeads;
+    }
+}
+```
+I added the B and R above the @ symbols in the directions because in Code Wars they were colored and that didn't translate here. Looking at the other solutions, there was a way to condense it to one line, but I'm happy with what I came up with!
+
+____________________________________________________________________________________________________________________________
+
 ## Day 12 (February 2, 2019)
 It's late but I got it! So I found a kata that I had to do in my Python class a while back. So I knew I could handle this in java too. Overall pretty simple, but it wanted an exception thrown for any input less than 0 or greater than 12. So I had to do some looking on how to implement the exception. I did learn it in Java class, but we didn't use it other than when we learned it and therefore it hadn't stuck. I remembered how it worked when I finally found the correct code to implement. This kata was found on Code Wars.
 
