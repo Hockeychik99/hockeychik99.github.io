@@ -1,3 +1,8 @@
+## Day 14 (February 7, 2019)
+So I don't have anything from Code Wars today. Instead, I was helping a friend with Python. We worked with `if/else` statements and `while` loops. A number was passed in, and the program needed to determine if the number was positive or negative and then print all of the integers from that number to zero. It's been a while since I've coded using Python. But the basic concept of loops and conditional statements is the same across most programming languages. 
+
+_____________________________________________________________________________________________________________________________
+
 ## Day 13 (February 6, 2019)
 Aye... again, it's been a few days... I'm failing at this coding every day thing, but, well life. Yesterday I think I technically fulfilled a day coding, as I wrote a script in bash for my Linux class. But I didn't write about it. I was happy with it, as I had to write it in the vi editor and then execute it. And it actually did what it was supposed to do!!! But I digress. On to today. Jumped on Code Wars and found a kata that I thought might be a little challenging, but then realized the only challenging part was going to be figuring out the math involved. And I am pleased with my work :)
 
