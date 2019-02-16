@@ -1,3 +1,62 @@
+## Day 15 (February 16, 2019)
+I'm in California on vacation, so I haven't been in front of my laptop much. But I had some time this morning to try a Code Wars kata. I thought this was going to be fairly easy, but it didn't turn out that way. I will have to come back to finish it when I have some more time.
+
+## Description
+```
+Implement a method that accepts 3 integer values a, b, c. The method should return true if a triangle can be built with the sides of given length and false in any other case.
+
+(In this case, all triangles must have surface greater than 0 to be accepted).
+```
+
+## My Code
+```
+class TriangleTester{
+  public static boolean isTriangle(int a, int b, int c){
+     int aSqr = 0;
+     int bSqr = 0;
+     int cSqr = 0;
+  
+     aSqr = a * a;
+  
+     bSqr = b * b;
+  
+     cSqr = c * c;
+  
+     if (cSqr == (aSqr + bSqr)) {
+        return true;
+     }
+     
+     else {
+        return false;
+     }
+  }
+}
+```
+So the above code checks for right triangles. This was my first attempt at writing the program, but I misunderstood the directions a tad (probably my math brain just going to the Pythagorean Theorem). So the tests passed for some but not all of the number tests. But I had to figure out why it didn't work for others. So I went back and re-read the instructions. And it just says that it should be for 'surface greater than 0'.
+
+## Try 2
+
+```
+class TriangleTester{
+  public static boolean isTriangle(int a, int b, int c){
+  
+     if (a <= 0 || b <= 0 || c <= 0) {
+        return false;
+     }
+  
+     else if (a > (b + c) && b > (c + a) && c > (a + b)) {
+        return true;
+     }
+     
+     else {
+        return false;
+     }
+  }
+}
+```
+So Try 2 code still isn't passing all tests. But I ran out of time for now. I will have to re-visit this at a later time. My issue is more from a math standpoint as I can't figure out what else I need to compute for the code to test correctly.
+_______________________________________________________________________________________________________________________________
+
 ## Day 14 (February 7, 2019)
 So I don't have anything from Code Wars today. Instead, I was helping a friend with Python. We worked with `if/else` statements and `while` loops. A number was passed in, and the program needed to determine if the number was positive or negative and then print all of the integers from that number to zero. It's been a while since I've coded using Python. But the basic concept of loops and conditional statements is the same across most programming languages. 
 
