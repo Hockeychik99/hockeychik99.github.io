@@ -1,3 +1,16 @@
+## 2019 in Review (December 28, 2019)
+Well, well, well. As you can see, I did not make the 100 days of code (yet). Unfortunately, life gets in the way sometimes. That doesn't mean I haven't been doing anything. I've competed in my 3rd and 4th seasons of NCL in April and November, respectively. And I continue to show my improvement and understanding of cyber security topics even though they keep throwing new types of challenges at us!
+
+Last term one of my classes taught scripting using PowerShell. I wish it would have gone more in depth with actual code and writing more scripts to automate administrator tasks, but it was enough to get my feet wet and I can say that I was able to continue my journey in coding.
+
+Seeing as how my kids are with their dad for this week leading up to the new year, and I have a short break from classes due to the holidays also, I decided to take a stab at Holiday Hack Challenge 2019 KringleCon which can be found at https://2019.kringlecon.com. I think I may have attempted this a year or two ago, but basically got no where (not even sure I figured out how to walk around!) But, after just a couple hours fiddling around, I've enjoyed meeting the elves, and attempting the challenges. I am pretty proud of myself for completing what I have so far, and I think I'll be able to solve more with a little additional OSI because there's more challenges that I understand (that's the first step in solving the challenge!) and have a little background in, but haven't figured out the exact answers yet. So, if you've got some time to kill, give KringleCon 2019 a shot!
+
+In wrapping up 2019, I felt defeated that I didn't accomplish the 100 days of code challenge. But I spoke with someone who made me look at it from a different perspective. It's not that I failed, but I tried, and I did complete 15 days of that challenge. And I did it on my own accord. It wasn't an assignment for a class that I had to turn in. I did it in an attempt to better myself. And while I don't necessarily see myself somewhere where I will be writing thousands of lines of code on a daily basis, I do have an understanding of what programming languages are being used, I can look at the construct of a program and dissect it, and generally I can figure out what it is supposed to be doing. And that has helped me answer challenges I otherwise would not have been able to answer when playing NCL.
+
+Cheers to 2020 opening new doors and starting my career in cyber security!
+
+_________________________________________________________________________________________________________________________________
+
 ## Day 15 (February 16, 2019)
 I'm in California on vacation, so I haven't been in front of my laptop much. But I had some time this morning to try a Code Wars kata. I thought this was going to be fairly easy, but it didn't turn out that way. I will have to come back to finish it when I have some more time.
 
